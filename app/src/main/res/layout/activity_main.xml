@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/backgroundunsplash">
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textSize="30sp"
+        android:textColor="@android:color/black"
+        android:id="@+id/mountainerWatch"
+        android:text="Mountainer's Watch"
+        android:padding="40dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/mountainerWatch"
+            android:text="longitude"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:id="@+id/longitude"
+            android:padding="10dp">
+        </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/longitude"
+        android:textColor="@android:color/white"
+        android:text="latitude"
+        android:id="@+id/latitude"
+        android:textSize="20sp"
+        android:padding="10dp">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/latitude"
+        android:textColor="@android:color/white"
+        android:text="Accuracy"
+        android:textSize="20sp"
+        android:id="@+id/acuracy"
+        android:padding="10dp">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/acuracy"
+        android:textColor="@android:color/white"
+        android:text="Altitude"
+        android:textSize="20sp"
+        android:id="@+id/altitude"
+        android:padding="10dp">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/altitude"
+        android:textColor="@android:color/white"
+        android:text="Address"
+        android:textSize="20sp"
+        android:id="@+id/address"
+        android:padding="20dp">
+    </TextView>
+
+</RelativeLayout>
